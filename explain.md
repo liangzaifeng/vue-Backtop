@@ -1,6 +1,21 @@
 # Backtop 回到顶部组件使用说明
 
 
+```javascript
+<template>
+  <div id="app"></div>
+  <Backtop border/>
+ <template>
+
+<script>
+import Backtop from "@/components/Backtop";
+export default {
+  name: "App",
+  components: {Backtop}
+};
+</script>
+```
+
 
 ###Backtop Attributes: 
 ---
@@ -14,7 +29,7 @@
 | background-color |      背景颜色      | String  |     —      |  `#fff`   |
 |      border      |     是否加边框     | Boolean | true/false |   false   |
 |   border-color   |      边框颜色      | String  |     —      |  `#ddd`   |
-|       icon       |      字体图标      | String  |     —      |    无     |
+|       icon       |      字体图标      | String  |     —      |    —     |
 |    icon-color    |    字体图标颜色    | String  |     —      |  `#ddd`   |
 |       text       |        文本        | String  |     —      |    Top    |
 |    text-color    |      文本颜色      | String  |     —      | `#A1A1A1` |
